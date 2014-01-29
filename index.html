@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scrum-O-Meter</title>
+    <link href='http://fonts.googleapis.com/css?family=Monoton|Rock+Salt' rel='stylesheet' type='text/css'>
+    <link href='styles/main.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<h1>Scrum-O-Meter</h1>
+    <div class="meter">
+        <p class="meter-desc">
+            Daily Scrum Team Meeting... <span id="cDesc">is cool :)</span>
+        </p>
+        <span id="cMin" class="time"></span><span>:</span><span id="cSec" class="time"></span>
+    </div>
+
+    <script type="text/javascript" src="js/scrumometer.js"></script>
+    <script type="text/javascript">
+        var scrumOmeter = new ScrumOMeter();
+        scrumOmeter.start();
+    </script>
+</body>
+</html>

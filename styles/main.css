@@ -1,0 +1,127 @@
+body {
+    background-color: #5f9ea0;
+}
+
+h1, h2, h3 {
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    color: #deb887;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+.meter {
+    font-family: 'Rock Salt', cursive;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.meter-desc {
+    font-size: 25px;
+}
+
+.stress {
+    display: block;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+
+.warn-ya {
+    background-color: #fff;
+
+    -webkit-animation: annoying-blink 1s linear 0s infinite;
+    -moz-animation: annoying-blink 1s linear 0s infinite;
+    -ms-animation: annoying-blink 1s linear 0s infinite;
+    -o-animation: annoying-blink 1s linear 0s infinite;
+}
+
+
+.hurry-up {
+    background: #fff;
+
+    -webkit-animation: blink 0.5s linear 0s infinite;
+    -moz-animation: blink 0.5s linear 0s infinite;
+    -ms-animation: blink 0.5s linear 0s infinite;
+    -o-animation: blink 0.5s linear 0s infinite;
+}
+
+.all-ends {
+    background-color: #f00;
+}
+
+@-webkit-keyframes blink {
+    0% {
+        background: #fff
+    }
+    100% {
+        background: #f00
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        background: #fff
+    }
+    100% {
+        background: #f00
+    }
+}
+
+@-ms-keyframes blink {
+    0% {
+        background: #fff
+    }
+    100% {
+        background: #f00
+    }
+}
+
+@-o-keyframes blink {
+    0% {
+        background: #fff
+    }
+    100% {
+        background: #ff0
+    }
+}
+
+@-webkit-keyframes annoying-blink {
+    0% {
+        background: #fff
+    }
+    100% {
+        background: #ff8c00
+    }
+}
+
+@-moz-keyframes annoying-blink {
+    0% {
+        background: #fff
+    }
+    100% {
+        background: #ff8c00
+    }
+}
+
+@-ms-keyframes annoying-blink {
+    0% {
+        background: #fff
+    }
+    100% {
+        background: #ff8c00
+    }
+}
+
+@-o-keyframes annoying-blink {
+    0% {
+        background: #fff
+    }
+    100% {
+        background: #ff8c00
+    }
+}
